@@ -53,6 +53,66 @@ Our groundwater prediction model is trained on a comprehensive French piezometri
 
 This robust dataset enables accurate groundwater level predictions, particularly during critical summer months when water management is most crucial.
 
+## Machine Learning Component
+
+### Hackathon-Winning Solution Powered by AutoGluon
+
+Welcome to the machine learning component of AquaSense, leveraging the winning solution from the Hi!Paris Hackathon Season 5! 🏆 This project demonstrates the power of **AutoGluon**, a state-of-the-art automated machine learning (AutoML) framework, to deliver exceptional results with minimal effort. Our groundwater prediction model capitalizes on this robust framework to provide highly accurate predictions for sustainable agriculture.
+
+---
+
+### 🚀 Method Overview: Why AutoGluon?
+
+#### Motivation
+Machine learning is often a complex process involving:
+- Model selection
+- Data preprocessing
+- Parameter tuning
+
+AutoGluon simplifies this by automating the pipeline, enabling rapid development without sacrificing performance.
+
+#### Why Use Ensemble Methods?
+Ensemble learning, the foundation of AutoGluon, combines predictions from multiple models to improve accuracy and robustness. This approach is highly effective because:
+- Different models capture different patterns in data.
+- Aggregating multiple models reduces the risk of overfitting and underfitting.
+- Ensembles often outperform individual models in real-world scenarios.
+
+By automatically training diverse models (e.g., decision trees, gradient boosting machines, neural networks) and combining their outputs, AutoGluon delivers robust and reliable results.
+
+---
+
+### State-of-the-Art Features of AutoGluon
+- **Automatic Ensembling**: Combines models using bagging and stacking without requiring manual intervention.
+- **Out-of-the-Box Performance**: Delivers strong results without hyperparameter tuning, making it ideal for tight deadlines.
+- **Robust Handling of Real-World Data**: Seamlessly processes missing values, categorical variables, and imbalanced datasets.
+- **Resource-Aware**: Adjusts to available computational resources for optimal efficiency.
+
+---
+
+### Why AutoGluon for AquaSense?
+AutoGluon’s simplicity and effectiveness made it the perfect choice for AquaSense. We leveraged its default settings, relying entirely on its:
+- Predefined ensemble methods
+- Automatic preprocessing capabilities
+- Baseline hyperparameters (no tuning required)
+
+This approach allowed us to focus on understanding the problem and the data, rather than fine-tuning the model.
+
+---
+
+### 📈 Results
+Key Metrics for Hi!Paris Hackathon Season 5:
+- **F1 Score**: 69.61%
+
+AutoGluon delivered superior results by:
+- Automatically ensembling multiple models
+- Handling data preprocessing efficiently
+- Using robust baseline configurations designed for competitive performance
+
+---
+
+### 📜 License
+This project is licensed under the MIT License.
+
 ### Weather API
 We are evaluating weather APIs that provide:
 - Historical weather data
