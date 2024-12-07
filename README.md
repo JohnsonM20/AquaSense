@@ -162,39 +162,6 @@ This data helps us determine crop suitability and water requirements for differe
 
 ---
 
-## Value Proposition
-
-### For Farmers
-- Data-driven profit optimization
-- Future-proofing agricultural operations
-- Access to sophisticated water management insights
-- Cost-effective decision support
-
-### Environmental Impact
-- Optimized water usage
-- Support for sustainable farming practices
-- Alignment with environmental regulations
-
----
-
-## Subscription Model
-
-### Pricing Tiers
-- **Free Trial**: One-month access
-- **Individual Tier**: 5,000€/year
-- **Cooperative Tier**: 4,000€/year
-
----
-
-## Technology Stack
-
-- iOS Development
-- Machine Learning
-- Weather API Integration
-- Data Analytics
-
----
-
 ## Reports
 
 1. **[Business Report](business_report.pdf)**  
@@ -202,6 +169,12 @@ This data helps us determine crop suitability and water requirements for differe
 
 ---
 
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
 ## Contact
 
-Developed as an innovative solution to address agricultural water management challenges in the context of climate change.
+Developed as an open-source innovative solution to address agricultural water management challenges in the context of climate change.
