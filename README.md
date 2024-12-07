@@ -249,28 +249,9 @@ This repository includes two key reports that provide an in-depth overview of th
 
 ---
 
-## Installation
-
-*Detailed installation instructions to be added*
-
----
-
-## Usage
-
-*Comprehensive user guide to be added*
-
----
-
-## Contributing
-
-*Contribution guidelines to be specified*
-
----
-
 ## License
 
-*License information to be added*
-
+This project is licensed under the [MIT License](LICENSE).
 ---
 
 ## Contact
@@ -281,4 +262,4 @@ This repository includes two key reports that provide an in-depth overview of th
 
 ## Acknowledgments
 
-Developed as an innovative solution to address agricultural water management challenges in the context of climate change.
+Developed as an open-source innovative solution to address agricultural water management challenges in the context of climate change.
