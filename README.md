@@ -211,6 +211,28 @@ We have created a custom API that:
 
 ---
 
+## Reports
+
+This repository includes two key reports that provide an in-depth overview of the AquaSense project:
+
+1. **[Business Report](business_report.pdf)**  
+   The Business Report provides a comprehensive overview of the AquaSense product, including:
+   - Product feasibility analysis
+   - Target market and value proposition
+   - Detailed examination of the technology stack
+   - Financial models and subscription tiers  
+   This report is tailored for stakeholders and business professionals seeking to understand the strategic and operational aspects of AquaSense.
+
+2. **[Scientific Report](scientific_report.pdf)**  
+   The Scientific Report delves into the technical implementation of AquaSense, with a focus on:
+   - The machine learning pipeline powered by AutoGluon
+   - Dataset characteristics and preprocessing
+   - Ensemble methods and their advantages
+   - Performance metrics and evaluation  
+   This report is ideal for researchers, data scientists, and developers interested in the technical foundations of the project.
+
+---
+
 ## Installation
 
 *Detailed installation instructions to be added*
