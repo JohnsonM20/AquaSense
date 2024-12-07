@@ -158,6 +158,8 @@ We have created a custom API that:
    - Suitable crop recommendations
    - Predicted additional water costs
 
+![AquaSense Diagram](diagram.png)
+
 ---
 
 ## Value Proposition
