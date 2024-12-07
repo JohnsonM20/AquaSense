@@ -1,5 +1,5 @@
 # AquaSense: Groundwater Level Prediction for Sustainable Agriculture
-![AquaSense Logo](logo_aquasense.png)
+![AquaSense Logo](img/logo_aquasense.png)
 
 ## Overview
 
@@ -15,7 +15,7 @@ Climate change is significantly impacting agricultural water resources in France
   <table>
   <tr>
     <td>
-      <img src="aquasense.gif" alt="AquaSense GIF" width="100%">
+      <img src="img/aquasense.gif" alt="AquaSense GIF" width="100%">
     </td>
     <td>
       <h3>1. Groundwater Prediction</h3>
@@ -43,23 +43,6 @@ Climate change is significantly impacting agricultural water resources in France
   </tr>
 </table>
 
-## Key Features
-
-### 1. Groundwater Prediction
-- Real-time groundwater level predictions based on:
-  - Farmer's specific location
-  - Integrated weather API data
-  - Machine learning predictive modeling
-
-### 2. Crop Profit Analysis
-- Comprehensive crop recommendation system
-- Calculates:
-  - Hardiness zone assessment
-  - Additional water requirements
-  - Water cost projections
-  - Seed and growing expenses
-- Provides clear, actionable recommendations for most profitable crops
-
 ## Technical Architecture
 
 - Machine Learning Model
@@ -68,10 +51,10 @@ Climate change is significantly impacting agricultural water resources in France
 - User-Friendly Interface
 
 <p align="center">
-  <img src="p1.png" alt="Main App Page" width="22%" />
-  <img src="p2.png" alt="Crop Picker Page" width="22%" />
-  <img src="p3.png" alt="Crop Details Page" width="22%" />
-  <img src="p4.png" alt="Settings Page" width="22%" />
+  <img src="img/p1.png" alt="Main App Page" width="22%" />
+  <img src="img/p2.png" alt="Crop Picker Page" width="22%" />
+  <img src="img/p3.png" alt="Crop Details Page" width="22%" />
+  <img src="img/p4.png" alt="Settings Page" width="22%" />
 </p>
 
 ---
@@ -83,6 +66,8 @@ Our groundwater prediction model is trained on a comprehensive French piezometri
 - Data from thousands of monitoring stations across France
 - Over 3 million historical measurements from 2020-2023
 - Key measurements include:
+  &nbsp
+  
   - Groundwater level readings
   - Station locations (longitude/latitude)
   - Measurement depths
@@ -189,7 +174,7 @@ We have created a custom API that:
    - Suitable crop recommendations
    - Predicted additional water costs
 
-![AquaSense Diagram](diagram.png)
+![AquaSense Diagram](img/diagram.png)
 
 ---
 
