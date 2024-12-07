@@ -12,6 +12,37 @@ Climate change is significantly impacting agricultural water resources in France
 - Increasing drought conditions threaten agricultural sustainability
 - Farmers lack reliable tools to predict water availability and optimize crop selection
 
+  <table>
+  <tr>
+    <td>
+      <img src="aquasense.gif" alt="AquaSense GIF" width="100%">
+    </td>
+    <td>
+      <h3>1. Groundwater Prediction</h3>
+      <ul>
+        <li>Real-time groundwater level predictions based on:</li>
+        <ul>
+          <li>Farmer's specific location</li>
+          <li>Integrated weather API data</li>
+          <li>Machine learning predictive modeling</li>
+        </ul>
+      </ul>
+      <h3>2. Crop Profit Analysis</h3>
+      <ul>
+        <li>Comprehensive crop recommendation system</li>
+        <li>Calculates:</li>
+        <ul>
+          <li>Hardiness zone assessment</li>
+          <li>Additional water requirements</li>
+          <li>Water cost projections</li>
+          <li>Seed and growing expenses</li>
+        </ul>
+        <li>Provides clear, actionable recommendations for most profitable crops</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
 ## Key Features
 
 ### 1. Groundwater Prediction
