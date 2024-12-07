@@ -59,6 +59,22 @@ Climate change is significantly impacting agricultural water resources in France
 
 ---
 
+## Technical Implementation
+
+We have created a custom API that:
+1. Receives the farmer’s location input  
+2. Retrieves weather data and groundwater predictions  
+3. Queries the Perenual API for suitable crops based on the hardiness zone  
+4. Integrates this information into our analysis model  
+5. Returns comprehensive predictions including:
+   - Expected groundwater levels  
+   - Suitable crop recommendations  
+   - Predicted additional water costs  
+
+![AquaSense Diagram](img/diagram.png)
+
+---
+
 ## Groundwater Prediction Model
 
 ### Dataset
@@ -68,11 +84,11 @@ Our groundwater prediction model is trained on a comprehensive French piezometri
 - Key measurements include:
   &nbsp
   
-  - Groundwater level readings
-  - Station locations (longitude/latitude)
-  - Measurement depths
-  - Department and commune information
-  - Detailed hydrogeological data
+  - Groundwater level readings  
+  - Station locations (longitude/latitude)  
+  - Measurement depths  
+  - Department and commune information  
+  - Detailed hydrogeological data  
 
 This robust dataset enables accurate groundwater level predictions, particularly during critical summer months when water management is most crucial.
 
@@ -133,19 +149,6 @@ AutoGluon delivered superior results by:
 
 ---
 
-### 📜 License
-This project is licensed under the MIT License.
-
-### Weather API
-We are evaluating weather APIs that provide:
-- Historical weather data
-- Current conditions
-- Weather forecasts
-- Precipitation data
-This data will integrate into our groundwater prediction model.
-
----
-
 ## Crop Data Integration
 
 ### Crop Data API
@@ -156,25 +159,6 @@ We utilize the Perenual API ([perenual.com](https://perenual.com)), which provid
 - Seasonal information
 
 This data helps us determine crop suitability and water requirements for different locations.
-
-### Farmer Location Processing
-The system processes the farmer's input seamlessly:
-- Farmers only need to input their location
-- The system determines plant hardiness zones based on coordinates (API for France pending development)
-- Automatically retrieves relevant groundwater and crop data
-
-### Technical Implementation
-We have created a custom API that:
-1. Receives the farmer’s location input
-2. Retrieves weather data and groundwater predictions
-3. Queries the Perenual API for suitable crops based on the hardiness zone
-4. Integrates this information into our analysis model
-5. Returns comprehensive predictions including:
-   - Expected groundwater levels
-   - Suitable crop recommendations
-   - Predicted additional water costs
-
-![AquaSense Diagram](img/diagram.png)
 
 ---
 
@@ -202,14 +186,6 @@ We have created a custom API that:
 
 ---
 
-## Target Market
-
-- Primary Focus: Small and medium-sized French farms
-- Market Size: 389,800 farms (92.5% small to medium-scale)
-- Potential Impact: Serve farmers lacking advanced water management resources
-
----
-
 ## Technology Stack
 
 - iOS Development
@@ -219,47 +195,13 @@ We have created a custom API that:
 
 ---
 
-## Future Expansion Potential
-
-- Urban water distribution optimization
-- Industrial water usage management
-- Ecosystem restoration support
-
----
-
 ## Reports
 
-This repository includes two key reports that provide an in-depth overview of the AquaSense project:
-
 1. **[Business Report](business_report.pdf)**  
-   The Business Report provides a comprehensive overview of the AquaSense product, including:
-   - Product feasibility analysis
-   - Target market and value proposition
-   - Detailed examination of the technology stack
-   - Financial models and subscription tiers  
-   This report is tailored for stakeholders and business professionals seeking to understand the strategic and operational aspects of AquaSense.
-
 2. **[Scientific Report](scientific_report.pdf)**  
-   The Scientific Report delves into the technical implementation of AquaSense, with a focus on:
-   - The machine learning pipeline powered by AutoGluon
-   - Dataset characteristics and preprocessing
-   - Ensemble methods and their advantages
-   - Performance metrics and evaluation  
-   This report is ideal for researchers, data scientists, and developers interested in the technical foundations of the project.
 
----
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 ---
 
 ## Contact
 
-*Contact information for the development team*
-
----
-
-## Acknowledgments
-
-Developed as an open-source innovative solution to address agricultural water management challenges in the context of climate change.
+Developed as an innovative solution to address agricultural water management challenges in the context of climate change.
