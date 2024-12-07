@@ -36,7 +36,12 @@ Climate change is significantly impacting agricultural water resources in France
 - Crop Database Management
 - User-Friendly Interface
 
-![Main App Page](p1.png)
+<p align="center">
+  <img src="p1.png" alt="Main App Page" width="22%" />
+  <img src="p2.png" alt="Crop Picker Page" width="22%" />
+  <img src="p3.png" alt="Crop Details Page" width="22%" />
+  <img src="p4.png" alt="Settings Page" width="22%" />
+</p>
 
 ---
 
