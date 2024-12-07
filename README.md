@@ -36,6 +36,8 @@ Climate change is significantly impacting agricultural water resources in France
 - Crop Database Management
 - User-Friendly Interface
 
+![Main App Page](p1.png)
+
 ---
 
 ## Groundwater Prediction Model
